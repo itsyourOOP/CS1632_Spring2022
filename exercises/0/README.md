@@ -59,12 +59,12 @@ start by using the Desktop GUI version.  You can download it from:
 
    https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop
 
-   Please clone the GitHub Classroom repository that was created for you when you accept the assignment.
+   Please clone the GitHub Classroom repository that was created for you when you accept the assignment to your desktop.
 
-   This way, you will have always have up=to-date course materials on your
-computer.  Whenever there are updates to the course materials, the "Pull"
-request button will be activated for the repository on GitHub Desktop.  Clicking
-that button will bring your local folder in sync with the updated materials.
+   Whenever there are updates to the GitHub Classroom repository (for example,
+somebody did a "Push" to the repository), the "Pull" request button will be
+activated for the repository on GitHub Desktop.  Clicking that button will
+bring your Local Repository in sync with the Remote Repository at GitHub.com.
 
 3. Whenever you make improvements to your source code, frequently "Commit" and
    "Push" those changes to GitHub so that your new changes are versioned.
@@ -72,20 +72,20 @@ that button will bring your local folder in sync with the updated materials.
    Committing your changes will transfer the changes from the source code that
 you are working on to the Local Repository creating a new version.  Pushing
 your changes will upload new versions in your Local Repository to the central
-Remote Repository at GitHub.com.  So only after you Commit and Push will the
-changes be available to your collaborator to Pull (or yourself from a different
-machine).  Committing and Pushing frequently ensures that your changes are
-versioned and backed up, as well as allowing your collaborators to access your
-changes and keep up-to-date.
+Remote Repository at GitHub.com.  So only after you Push will the changes be
+available to your collaborator to Pull (or yourself from a different machine).
+Committing and Pushing frequently ensures that your changes are versioned and
+backed up, as well as allowing your collaborators to access your changes and
+keep up-to-date.
 
-   Optionally, you may also clone the course repository at
-https://github.com/wonsunahn/CS1632_Spring2022.  Since you don't own this
-repository, you will have to choose the "URL" tab when cloning and input that
-URL.  Also, you will only be able to Pull from the repository and not Push.
-But if you want to have access to course materials while offline, that is a
-great option.  If you do this, please make sure that you click on "Fetch
-Origin" on GitHub Desktop and Pull and changes frequently (before every class)
-to keep up-to-date with newly released materials.
+   Optionally, you may decide to clone the course repository at
+https://github.com/wonsunahn/CS1632_Spring2022 to your desktop as well.  Since
+you don't own this repository, you will have to choose the "URL" tab when
+cloning and input that URL.  Also, you will only be able to Pull from the
+repository and not Push.  But if you want to have access to course materials
+while offline, that is a great option.  If you do this, please make sure that
+you click on "Fetch Origin" on GitHub Desktop and Pull any changes frequently
+(before every class) to keep up-to-date with newly released materials.
  
 ## Install JDK 8
 
