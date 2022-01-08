@@ -6,7 +6,7 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 ## WEEK 1 (Week of 10 JAN)
 
 * Class 1: Course organization / Introduction to Software QA
-  * Do the [Java Assessment Exercise](exercises/0) (due 1/17 on GradeScope)
+  * Do the [Java Assessment Exercise](exercises/0) (due 1/14 on GradeScope)
   * Fill out the Partnership Contract (due 1/24 on GradeScope)
   
 * Class 2: Software QA and Nondeterminism
