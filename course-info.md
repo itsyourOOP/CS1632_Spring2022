@@ -67,10 +67,9 @@ recordings available on Canvas.  The class schedule is available on the
   * Teams participation
 
 TopHat questions will be asked in class on the day that the recorded lectures
-are due, usually at the beginning of each week.  You will be given typically
-one minute to answer each question.  You are allowed to look at your lecture
-notes when answering. 0.5 points are participation points and 0.5 points are
-correctness points for each 1 point per question.
+are due, usually at the beginning of each week.  You will be given typically 30
+seconds to one minute to answer each question.  0.5 points are participation
+points and 0.5 points are correctness points for each 1 point per question.
 
 Exercise submissions are unscored (as in your actual score doesn't matter).
 You will get full credit if you submit "satisfactory" work.  By satisfactory, I
