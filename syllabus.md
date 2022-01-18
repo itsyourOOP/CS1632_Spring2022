@@ -18,9 +18,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 2 (Week of 17 JAN)
 
-* Class 1: In-class Exercise 1: Test Plans
+* Class 1: In-class Exercise 1: Test Plans / TopHat questions
 
-* Class 2: Discuss Exercise 1 / Deliverable 1 / TopHat questions
+* Class 2: Discuss Exercise 1 / Deliverable 1
 
 * Deliverable 1 released 
 
@@ -30,9 +30,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 3 (Week of 24 JAN)
   
-* Class 1: In-class Supplementary Exercise 1: Testing Nondeterministic Software
+* Class 1: In-class Supplementary Exercise 1: Testing Nondeterministic Software / TopHat questions
 
-* Class 2: Discuss Supplementary Exercise 1 / TopHat questions
+* Class 2: Discuss Supplementary Exercise 1
 
 * Listen to lectures 
   * Automated and Manual Testing (READING: AFIST, Chapter 12)
@@ -41,9 +41,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 4 (Week of 31 JAN)
 
-* Class 1: In-class Exercise 2: Unit Testing 
+* Class 1: In-class Exercise 2: Unit Testing / TopHat questions
 
-* Class 2: Discuss Exercise 2 / Deliverable 2 / TopHat questions
+* Class 2: Discuss Exercise 2 / Deliverable 2 
 
 * Deliverable 1 due Tuesday 1:00 PM (tentative)
 
@@ -55,9 +55,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 5 (Week of 7 FEB)
 
-* Class 1: In-class Supplementary Exercise 2: Behavior Driven Development 
+* Class 1: In-class Supplementary Exercise 2: Behavior Driven Development / TopHat questions
 
-* Class 2: Discuss Supplementary Exercise 2 / TopHat questions
+* Class 2: Discuss Supplementary Exercise 2 
 
 * Listen to lectures 
   * Writing Testable Code (READING: AFIST, Chapter 16)
@@ -75,9 +75,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 7 (Week of 21 FEB)
 
-* Class 1: In-class Exercise 3: Automated System Testing 
+* Class 1: In-class Exercise 3: Automated System Testing / TopHat questions
 
-* Class 2: Discuss Exercise 3 / Deliverable 3 / TopHat questions
+* Class 2: Discuss Exercise 3 / Deliverable 3 
 
 * Deliverable 2 due Tuesday 1:00 PM (tentative)
 
@@ -88,9 +88,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 8 (Week of 28 FEB)
 
-* Class 1: In-class Exercise 4: Performance Testing 
+* Class 1: In-class Exercise 4: Performance Testing / TopHat questions
 
-* Class 2: Discuss Exercise 4 / Deliverable 4 / TopHat questions
+* Class 2: Discuss Exercise 4 / Deliverable 4 
 
 * Deliverable 4 released 
 
@@ -105,9 +105,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 10 (Week of 14 MAR)
 
-* Class 1: In-class Supplementary Exercise 3: Property-based Testing 
+* Class 1: In-class Supplementary Exercise 3: Property-based Testing / TopHat questions
 
-* Class 2: Discuss Supplementary Exercise 3 / TopHat questions
+* Class 2: Discuss Supplementary Exercise 3 
 
 * Deliverable 3 due Tuesday 1:00 PM (tentative)
 
@@ -116,9 +116,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 11 (Week of 21 MAR)
 
-* Class 1: In-class Exercise 5: Static Analysis Part 1
+* Class 1: In-class Exercise 5: Static Analysis Part 1 / TopHat questions
 
-* Class 2: Discuss Exercise 5 Part 1 / Deliverable 5 / TopHat questions
+* Class 2: Discuss Exercise 5 Part 1 / Deliverable 5 
 
 * Deliverable 5 released 
 
@@ -128,9 +128,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 12 (Week of 28 MAR)
 
-* Class 1: In-class Exercise 5: Static Analysis Part 2
+* Class 1: In-class Exercise 5: Static Analysis Part 2 / TopHat questions
 
-* Class 2: Discuss Exercise 5 Part 2 / TopHat questions
+* Class 2: Discuss Exercise 5 Part 2 
 
 * Deliverable 4 due Tuesday 1:00 PM (tentative)
 
@@ -140,7 +140,7 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 13 (Week of 4 APR)
 
-* Class 1: In-class Supplementary Exercise 4 Part 1: CI Pipelines
+* Class 1: In-class Supplementary Exercise 4 Part 1: CI Pipelines / TopHat questions
 
 * Class 2: In-class Supplementary Exercise 4 Part 2: Dockers
 
@@ -155,7 +155,7 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 15 (Week of 18 APR)
 
-* Class 1: Midterm 2 review 
+* Class 1: Midterm 2 review / TopHat questions
 
 * Class 2: Study for Midterm 2 (NO CLASS)
 
