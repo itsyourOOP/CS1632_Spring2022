@@ -128,7 +128,16 @@ one-liners in this case, but typically there will be multiple steps.
 
 POSTCONDITIONS should be the **expected state** of the program after the test.
 It is **not** the observed state.  So where should you get expectations of your
-program?  From the [requirements](requirements.md) of course!
+program?  From the [requirements](requirements.md) of course!  But note that it
+should not be a simple copy and paste of the requirement.  It should be the
+state exactly according to the requirement given the preconditions and
+execution steps.  It should not overspecify beyond the requirements or
+underspecify short of the requirements.  Otherwise, you will end up with false
+positive defects or false negative defects, respectively.  That means
+screenshots or copies of "correct" program output are often not good
+postconditions.  That is because screenshots typically contain extra
+information beyond what is required for correctness (e.g. the font of the text,
+coloring, decorative images or text that is not strictly required).
 
 ## Creating a Traceability Matrix
 
@@ -165,9 +174,37 @@ Please refer to [Lecture 5: Defects](../../lectures/CS1632_Lecture5_Defects.pdf)
 for more details and examples for each item.  Optional bug report items
 such as SEVERITY or IMPACT were not included for this exercise.
 
-**Don't forget to include any preconditions at the start of the REPRODUCTION
-STEPS.** You will not be able to reproduce the bug even if you reproduce the
-steps if you start from a different precondition!
+REPRODUCTION STEPS should start with preconditions, if there is no separate
+entry for preconditions as in this case.  You will not be able to reproduce the
+bug even if you reproduce the steps if you start from a different precondition!  For example:
+
+```
+REPRODUCTION STEPS:
+   Preconditions: "java -version" shows java version "1.8.0_231".
+   Steps:
+   1. ...
+   2. ...
+```
+
+EXPECTED BEHAVIOR is literally what it says.  If you discovered this defect
+while running a test case, it would look very similar to the POSTCONDITIONS of
+the test case.
+
+OBSERVED BEHAVIOR is arguably the most important component of a defect report.
+You should describe what you observed with as much detail as possible so that
+developers can use that information to debug.  Screenshots of your application
+output or webpage are highly encouraged since that is the best way to convey
+what you see.  If your application crashed, don't just say it crashed --- that
+is not going to be very helpful.  Include all the output the program displayed
+while crashing, for example an exception stack trace if you are testing a Java
+program.  A common misconception is: "I have included all the reproduction
+steps so the developer can test for him/herself so I can be lazy about
+describing observed behavior."  You cannot assume that the developer will
+easily be able to reproduce the defect.  There are a myriad of things that
+could go wrong: 1) You may have missed an important precondition in your
+report, or 2) You may not have described the reproduction steps in enough
+detail (note that sometimes even timing of input is important), or 3) The
+program may be a nondeterministic program to begin with.
 
 ## Test Plan / Defect Reporting Tips
 
