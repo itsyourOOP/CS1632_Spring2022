@@ -134,7 +134,7 @@ thng to do is: describe each precondition conceptually then below it, list the s
 implement the precondition.  For example:
    ```
    PRECONDITIONS:
-   Java 8 is installed and is in the OS PATH environment variable.
+   "java -version" shows java version "1.8.0_231"
    The game has started and the player has sugar.  Steps:
      1. Launch program by: "java -jar coffeemaker.jar"
      2. Type "N [Enter]" in prompt 
