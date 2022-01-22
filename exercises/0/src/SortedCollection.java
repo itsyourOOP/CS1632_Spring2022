@@ -4,6 +4,14 @@ import java.util.NoSuchElementException;
 public class SortedCollection {
 	// TODO: Add member variables or methods as needed
 
+	private class Node{
+		int data;
+		Node next;
+		Node prev; 
+	}
+
+	Node head; 
+
 	/**
 	 * Adds the number n to the collection.
 	 * 
@@ -12,6 +20,26 @@ public class SortedCollection {
 	 */
 	public boolean add(int n) {
 		// TODO: Implement
+		Node node = new Node(); 
+		node.data = n;
+		node.next = null; 
+		node.prev = null; 
+
+		if(head == null)
+		{
+			head = node; 
+		}
+		else
+		{
+			Node cur = head; 
+			while(cur.next != null) 
+			{
+				cur = cur.next; 
+			}
+			cur.next = node; 
+			node.prev = cur; 
+		}
+
 		return true;
 	}
 
@@ -23,7 +51,30 @@ public class SortedCollection {
 	 */
 	public int remove() throws NoSuchElementException {
 		// TODO: Implement
-		return 0;
+		Node cur = head; 
+		Node min = head; 
+
+		while(cur.next != null)
+		{
+			if(cur.data < min.data)
+			{
+				min = cur; 
+			}
+
+			cur = cur.next; 
+		}
+
+		if(min == head)
+		{
+			head = min.next; 
+		}
+		else
+		{
+			min.next.prev = min.prev; 
+			min.prev.next = min.next; 
+		}
+
+		return min.data;
 	}
 
 	/**
@@ -48,6 +99,19 @@ public class SortedCollection {
 		
 		// TODO: add numbers in commandline arguments to collection using the add(int) method.
 		// If any commandline argument is not a number, call showUsage() and return.
+		for(int i = 0; i < args.length; i++)
+		{
+			try
+			{
+				int n = Integer.parseInt(args[i]); 
+				collection.add(n); 
+			} 
+			catch (NumberFormatException ex)
+			{
+				showUsage(); 
+				return; 
+			}
+		}
 		
 		System.out.print("sorted: ");
 		for (int i = 0; i < args.length; i++) {
